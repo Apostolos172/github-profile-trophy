@@ -109,7 +109,7 @@ export class MultipleLangTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Rainbow Lang User",
-        10,
+        5,
       ),
     ];
     super(score, rankConditions);
@@ -131,7 +131,8 @@ export class AllSuperRankTrophy extends Trophy{
     super(score, rankConditions);
     this.title = "AllSuperRank";
     this.filterTitles = ["AllSuperRank"];
-    this.bottomMessage = "All S Rank"
+//    this.bottomMessage = "All S Rank"
+    this.bottomMessage = ""
     this.hidden = false;
   }
 }
@@ -148,7 +149,7 @@ export class Joined2020Trophy extends Trophy{
     this.title = "Joined2020";
     this.filterTitles = ["Joined2020"];
     this.bottomMessage = "Joined 2020"
-    this.hidden = false;
+    this.hidden = true;
   }
 }
 export class AncientAccountTrophy extends Trophy{
@@ -179,7 +180,7 @@ export class LongTimeAccountTrophy extends Trophy{
     super(score, rankConditions);
     this.title = "LongTimeUser";
     this.filterTitles = ["LongTimeUser"];
-    this.hidden = false;
+    this.hidden = true;
   }
 }
 export class MultipleOrganizationsTrophy extends Trophy{
@@ -195,7 +196,7 @@ export class MultipleOrganizationsTrophy extends Trophy{
     super(score, rankConditions);
     this.title = "Organizations";
     this.filterTitles = ["Organizations", "Orgs", "Teams"];
-    this.hidden = true;
+    this.hidden = false;
   }
 }
 
