@@ -115,7 +115,7 @@ export class MultipleLangTrophy extends Trophy{
     super(score, rankConditions);
     this.title = "MultiLanguage";
     this.filterTitles = ["MultipleLang", "MultiLanguage"];
-    this.hidden = true;
+    this.hidden = false;
   }
 }
 
@@ -132,7 +132,7 @@ export class AllSuperRankTrophy extends Trophy{
     this.title = "AllSuperRank";
     this.filterTitles = ["AllSuperRank"];
     this.bottomMessage = "All S Rank"
-    this.hidden = true;
+    this.hidden = false;
   }
 }
 export class Joined2020Trophy extends Trophy{
@@ -148,7 +148,7 @@ export class Joined2020Trophy extends Trophy{
     this.title = "Joined2020";
     this.filterTitles = ["Joined2020"];
     this.bottomMessage = "Joined 2020"
-    this.hidden = true;
+    this.hidden = false;
   }
 }
 export class AncientAccountTrophy extends Trophy{
@@ -179,7 +179,7 @@ export class LongTimeAccountTrophy extends Trophy{
     super(score, rankConditions);
     this.title = "LongTimeUser";
     this.filterTitles = ["LongTimeUser"];
-    this.hidden = true;
+    this.hidden = false;
   }
 }
 export class MultipleOrganizationsTrophy extends Trophy{
@@ -246,6 +246,7 @@ export class TotalStarTrophy extends Trophy {
     super(score, rankConditions);
     this.title = "Stars";
     this.filterTitles = ["Star", "Stars"];
+    this.hidden = true;
   }
 }
 
@@ -346,6 +347,7 @@ export class TotalFollowerTrophy extends Trophy {
     super(score, rankConditions);
     this.title = "Followers";
     this.filterTitles = ["Follower", "Followers"];
+    this.hidden = true;
   }
 }
 
@@ -396,6 +398,7 @@ export class TotalIssueTrophy extends Trophy {
     super(score, rankConditions);
     this.title = "Issues";
     this.filterTitles = ["Issue", "Issues"];
+    this.hidden = true;
   }
 }
 
