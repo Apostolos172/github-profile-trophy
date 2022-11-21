@@ -196,7 +196,7 @@ export class MultipleOrganizationsTrophy extends Trophy{
     super(score, rankConditions);
     this.title = "Organizations";
     this.filterTitles = ["Organizations", "Orgs", "Teams"];
-    this.hidden = false;
+    this.hidden = true;
   }
 }
 
