@@ -32,6 +32,9 @@
   </a>
 </p>
 
+# Deployment
+Keep in mind that if you want to deploy the service to your Vercel account you can follow the steps in this [guide](./vercel-deployment-guide.md)
+
 # Quick Start
 
 Add the following code to your readme. When pasting the code into your profile's readme, change the `?username=` value to your GitHub's username.
